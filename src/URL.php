@@ -3,7 +3,7 @@
 namespace ArieTimmerman\Laravel\URLShortener;
 
 use Illuminate\Database\Eloquent\Model;
-use Webpatser\Uuid\Uuid;
+use Ramsey\Uuid\Uuid;
 
 /**
  * Model for the shortened URL and related details
