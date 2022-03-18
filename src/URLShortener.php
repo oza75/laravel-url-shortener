@@ -1,7 +1,8 @@
 <?php
 
 namespace ArieTimmerman\Laravel\URLShortener;
-use Route;
+
+use Illuminate\Support\Facades\Route;
 
 /**
  * Helper class for the URL shortener

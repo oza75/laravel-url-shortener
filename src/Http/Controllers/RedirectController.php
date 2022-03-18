@@ -4,7 +4,6 @@ namespace ArieTimmerman\Laravel\URLShortener\Http\Controllers;
 
 use Illuminate\Http\Request;
 use ArieTimmerman\Laravel\URLShortener\URL;
-use ArieTimmerman\Laravel\URLShortener\URLShortener;
 use ArieTimmerman\Laravel\URLShortener\Events\URLVisit;
 
 /**

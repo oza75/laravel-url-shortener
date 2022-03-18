@@ -2,11 +2,11 @@
 
 namespace ArieTimmerman\Laravel\URLShortener\Http\Controllers;
 
-use Validator;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Response;
 use ArieTimmerman\Laravel\URLShortener\URL;
 use ArieTimmerman\Laravel\URLShortener\URLShortener;
+use Illuminate\Support\Facades\Validator;
 
 class URLController extends Controller
 {

@@ -26,7 +26,7 @@ class URL extends Model
 
         static::creating(
             function ($model) {
-                $model->{$model->getKeyName()} = Uuid::generate()->string;
+                $model->{$model->getKeyName()} = Uuid::uuid4()->toString();
 
                 // Generate a code if not set manually
                 if (!$model->code) {
